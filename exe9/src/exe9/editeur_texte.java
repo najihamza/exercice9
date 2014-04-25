@@ -140,6 +140,7 @@ public class editeur_texte implements ActionListener {
    }
    public static void main(String[] a) {
 	      (new editeur_texte()).OuvrirFenetre();
+	   system.out.println("hello");
 	   }
 }
 
