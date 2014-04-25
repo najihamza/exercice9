@@ -1,9 +1,8 @@
-
 package exe9;
 
 /**
  *
- * @author Hamza NAJI
+ * @author Hamza NAJI one
  */
 
 import java.io.*;
@@ -64,14 +63,14 @@ public class editeur_texte implements ActionListener {
     private JMenu getHelpMenu() {
      menuAide = new JMenu("Aide");
       
-      //helps = new JMenuItem("À propos");
+      //helps = new JMenuItem("ï¿½ propos");
       menuAide.addMenuListener(new MenuListener() {
 
         @Override
         public void menuSelected(MenuEvent e) {
       
             dialog = new JOptionPane();
-            dialog.showMessageDialog(null, "Editeur de texte simple permet d’ouvrir, de créer et d’éditer des fichiers texte. ", "Aide", JOptionPane.INFORMATION_MESSAGE);
+            dialog.showMessageDialog(null, "Editeur de texte simple permet dï¿½ouvrir, de crï¿½er et dï¿½ï¿½diter des fichiers texte. ", "Aide", JOptionPane.INFORMATION_MESSAGE);
 
         
         }
